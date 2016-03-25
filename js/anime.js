@@ -5,10 +5,8 @@
  * http://anime.reatlat.net/
  */
 
-$(document).ready(function() {
+(function($) {
 
-    "use strict";
-    
     $('.anime').each(function() {
         var elem = $(this);
         var style = {
@@ -18,25 +16,31 @@ $(document).ready(function() {
         elem.css(style);
     });
 
-    $('.anime').appear();
+    $(document).ready(function() {
 
-    $(window).scrollTop($(window).scrollTop()+1);
+        "use strict";
 
-    $('.anime').on('appear', function() {
-        var elem = $(this);
-        var animationDuration = elem.data('anime-duration') || '1.5s';
-        var animationDelay = elem.data('anime-delay') || '0s';
-        var style = {
-            'visibility': 'visible',
-            'animation-name': '',
-            'animation-delay': animationDelay,
-            '-webkit-animation-delay': animationDelay,
-            'animation-duration': animationDuration,
-            '-webkit-animation-duration': animationDuration
-        };
-        if (elem.css('visibility') === 'hidden') {
-            elem.addClass('animated').css(style);
-        }
+        $('.anime').appear();
+
+        $(window).scrollTop($(window).scrollTop() + 1);
+
+        $('.anime').on('appear', function() {
+            var elem = $(this);
+            var animationDuration = elem.data('anime-duration') || '1.5s';
+            var animationDelay = elem.data('anime-delay') || '0s';
+            var style = {
+                'visibility': 'visible',
+                'animation-name': '',
+                'animation-delay': animationDelay,
+                '-webkit-animation-delay': animationDelay,
+                'animation-duration': animationDuration,
+                '-webkit-animation-duration': animationDuration
+            };
+            if (elem.css('visibility') === 'hidden') {
+                elem.addClass('animated').css(style);
+            }
+        });
+
     });
 
-});
+})(jQuery);
