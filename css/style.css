@@ -1,0 +1,105 @@
+/* samples
+// Tests
+.test-1 {
+  @include linear-gradient(#31B7D7, #EDAC7D);
+}
+
+.test-2 {
+  @include linear-gradient(to right, #E47D7D 0%, #C195D3 50%, #4FB4E8 100%);
+}
+
+.test-3 {
+  @include linear-gradient(42deg, #B58234 0%, #D2B545 50%, #D7C04D 50.01%, #FFFFFF 100%);
+}
+*/
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  min-width: 768px;
+  text-align: center;
+  font-family: sans-serif; }
+  body h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 30px auto; }
+
+.bg {
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 456px;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  opacity: 0.8; }
+
+.clear {
+  clear: both;
+  padding-bottom: 10px; }
+
+.wrapper {
+  padding: 0;
+  margin: 0 auto;
+  width: 630px; }
+  .wrapper .block {
+    padding: 0;
+    margin: 0 auto; }
+    .wrapper .block .anime {
+      color: white;
+      float: left;
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+      line-height: 150px;
+      margin: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+  .wrapper .code {
+    line-height: 25px;
+    padding: 10px 30px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background-color: #D7D7D7; }
+
+.forkme {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 2;
+  width: 150px;
+  height: 150px; }
+
+.color-0 {
+  background-color: #B541FF; }
+
+.color-1 {
+  background-color: #4F41FF; }
+
+.color-2 {
+  background-color: #FF414A; }
+
+.color-3 {
+  background-color: #FF6A41; }
+
+.color-4 {
+  background-color: #FFB441; }
+
+.color-5 {
+  background-color: #C9FF41; }
+
+.color-6 {
+  background-color: #56FF41; }
+
+.color-7 {
+  background-color: #41FF82; }
+
+.color-8 {
+  background-color: #41DEFF; }
+
+.color-9 {
+  background-color: #5741FF; }
