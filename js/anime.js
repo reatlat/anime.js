@@ -20,6 +20,8 @@ $(document).ready(function() {
 
     $('.anime').appear();
 
+    $(window).scrollTop($(window).scrollTop()+1);
+
     $('.anime').on('appear', function() {
         var elem = $(this);
         var animationDuration = elem.data('anime-duration') || '1.5s';
