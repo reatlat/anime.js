@@ -19,7 +19,7 @@ Follow [@reatlat](//twitter.com/reatlat) for updates as ANIME evolves.
 ## Documentation
 
 It just take seconds to install and use ANIME.js!
-[Read the documentation](http://anime.reatlat.net/)
+[Read the documentation](http://anime.reatlat.net/#how-use)
 
 ### Dependencies
 - [jQuery](https://github.com/jquery/jquery)
