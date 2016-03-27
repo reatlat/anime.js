@@ -1,4 +1,4 @@
-# ANIME.js
+# ANIME.js [<img src="http://benschwarz.github.io/bower-badges/badge@2x.png" width="130" height="30">](#bower)
 Reveal CSS animation as you scroll down a page.
 By default, you can use it to trigger [animate.css](https://github.com/daneden/animate.css) animations.
 But you can easily change the settings to your favorite animation library.
@@ -13,8 +13,12 @@ Follow [@reatlat](//twitter.com/reatlat) for updates as ANIME evolves.
 ### [LIVE DEMO](http://anime.reatlat.net/)
 
 ## Version
+[release v1.0](https://github.com/reatlat/ANIME.js/releases)
 
-1.0
+## Bower
+```shell
+bower install anime
+```
 
 ## Documentation
 
