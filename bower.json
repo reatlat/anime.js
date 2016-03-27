@@ -23,7 +23,9 @@
     "disappear"
   ],
   "dependencies": {
-    "jquery": ">=1.5"
+    "jquery": ">=1.6",
+    "jquery-appear": ">=0.2.6",
+    "animate-css": ">=3.5.1"
   },
   "homepage": "https://github.com/reatlat/ANIME.js",
   "authors": [
